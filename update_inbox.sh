@@ -23,3 +23,5 @@ function update_inbox {
     echo "Installed." && \
     rm -rf $INBOX_SRC
 }
+
+update_inbox
